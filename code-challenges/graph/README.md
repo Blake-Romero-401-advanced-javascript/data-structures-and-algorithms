@@ -1,2 +1,2 @@
 # Graph
-!()[image]
+!()[graph/chal37_whiteboard.PNG]
