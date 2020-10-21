@@ -35,7 +35,7 @@ class Hashtable {
   contains(key) {
     const index = this.hash(key);
 
-    if(this.buckets[index] !== undefined) {
+    if(this.bucket[index] !== undefined) {
       return true;
     } else {
       return false;
