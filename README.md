@@ -60,7 +60,7 @@ The approach I took to this challenge was a recursive approach at first, then I 
 
 # Hashtables
 <!-- Short summary or background information -->
-[challenge30](code-challenges/hashTable.js)
+[challenge30](code-challenges/hashTable/hashTable.js)
 Implemented in two stages, first an element is converted into an integer by use of a hash function, then it is stored in the hashTable using that number as a key to recall the information whenever it is needed.
 
 ## Challenge
