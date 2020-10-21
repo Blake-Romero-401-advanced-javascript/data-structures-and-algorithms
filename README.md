@@ -77,3 +77,21 @@ add(key, value) - adds an element to the hashTbale
 get(key) - returns the element given at a certain position
 contains(key) - checks the hashTable for a key if exists
 hash(key) - hashes the value turning it into a usable key
+
+
+# DepthFirst Traversal
+<!-- Short summary or background information -->
+[challenge38](code-challenges/depthFirst/depthFirst.js)
+Depth First Traversal traverses the adjacency list of edges given by a graph. In this instance it will return a collection in order in which it was traversed.
+
+## Challenge
+<!-- Description of the challenge -->
+Create a depthFirst traversal function that traverses a graphs adjacency list and returns a collection of values in order it was traversed.
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+The approach that I took for this challenge was to recursively call the method to traverse the edges and check the values. The space time for this in linear and O(n) because it relies ont he length of list provided.
+
+## API
+<!-- Description of each method publicly available in each of your depthFirst -->
+depthFirstTraversal(node, visited = new Set()) - takes in a node from a graph and will recursively check its edges.
