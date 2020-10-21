@@ -95,3 +95,18 @@ The approach that I took for this challenge was to recursively call the method t
 ## API
 <!-- Description of each method publicly available in each of your depthFirst -->
 depthFirstTraversal(node, visited = new Set()) - takes in a node from a graph and will recursively check its edges.
+
+
+
+# Left Join
+<!-- Short summary or background information -->
+[challenge33](code-challenges/leftJoin/leftJoin.js)
+Left Join attempts to join and merge two hash tables into the left most hash table. Comparing tables with similar values and setting null if no comparison to left table.
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+The approach that I took for this challenge was to call each bucket looping through and checking each array int he tables value adding it to an internal array, then comparing the right side hashtable to array and placing in new matching key value pairs.
+
+## API
+<!-- Description of each method publicly available in each of your depthFirst -->
+leftJoin(hashOne, hashTwo) - Takes in two hash tables. The left, or the first, hash table being the comparative hash table to compare against.
