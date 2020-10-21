@@ -19,8 +19,8 @@ class DepthFirst extends Graph {
         this.depthFirstTraversal(destination, visited);
       }
     }
+    return collection;
   }
-
 }
 
 module.exports = DepthFirst;
